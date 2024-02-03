@@ -129,7 +129,7 @@
     flex: 1;
 }
 .messages-container{
-    background-color: aquamarine;
+    background-color: white;
     flex: 1;
 }
 .text-input-area {
@@ -147,6 +147,35 @@
     font-size: 1.25rem;
     color: rgba(0, 0, 0, 0.54);
 }
+.self-message-container {
+   display: flex;;
+   justify-content: flex-end;
+}
+.messageBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #63d7b0;
+    padding: 10px 10px;
+    margin:5px;
+    border-radius: 20px;
+    width: max-content;
+}
+.other-text-content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(198, 194, 194);
+    padding: 10px 10px;
+    margin:5px;
+    width: max-content;
+    border-radius: 20px;
+
+}
+.other-message-container {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
 
 
 

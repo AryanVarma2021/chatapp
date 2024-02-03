@@ -5,10 +5,15 @@ import ChatArea from './ChatArea'
 
 
 const MainConatiner = () => {
+  const temp = {
+    name : "Test1",
+    lastMessage : "Last Message #1",
+    timeStamp : "today"
+}
   return (
     <div className='mainConatiner'>
         <SideBar/>
-        <ChatArea/>
+        <ChatArea props={temp}/>
         
     </div>
   )
